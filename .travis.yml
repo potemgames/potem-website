@@ -1,5 +1,8 @@
 deploy:
-  provider: firebase
+- provider: firebase
+  skip_cleanup: true
+  on:
+    branch: master
+  project: "mywebsite-8481b"
   token:
     secure: "P2B6PcetlonzX4H+hqFcqfnEE9p8q11GzwtE0cjlCGHyXCsYeQJw6lJXG6wVWHNnMq89lyKxfDsIc+B2DbCMwXGW9BZ7G16I/o91s2clhk3AK/8njSDoMNkuXigf0YZFBWOHhEIZgl52Dqtb1f6SPcrSf80loL2thmwmW5NA9jf7viOOHvwrbbZRHHTsFzOJ7Kiyo4TP3hqdff25k56OvXi54ndEEaqO594rjFIi1dVjWUnFnfpDrn0E7vZGYBjWPIITSF3hYP2PLM4JPTKxFFmghwV6ALiyS51UNaeQJ/wGZTZTxsZu2tjTFWm0shrF4vzJGAC1mPLzhPYqm/n17msEeMBmnGqUVg7442lXF5T8lIv7yMQG5xC1y034k+XeSlC+Bgt4Hf5LUmzbgJagPi00q8+W41tPbvE7yLSU4UTnGrIKWP1dR38RFwgw+P21BHTovtVMghuoJHte76MKgwc5Ru0xVMsTeXfFqR+UjhcXsMy/MC+iS9SUQVFX0fNpIoIBa+n9iEojhZqA944SZUvM0sHJCsAczgBA6l/Es8RjxqJSOBk7i/d3SEK6GlTklh2qGnquXuKjf3UAxZv7CVxM68A1nF75hgYuK7ysgBLY0kE5IWCAlfPGrNmJpiaotOx4milMNt+mItnOfsw5Hc+3pyJOh9RtSg7IyyQjhNY="
-  project: "mywebsite-8481b"
