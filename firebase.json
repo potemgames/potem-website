@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "public",
+    "redirects": [
+      {
+        "source": "/google",
+        "destination": "http://google.com",
+        "type": 301
+      }
+    ],
+    "ignore": [
+      "firebase.json",
+      "**/.*"
+    ]
+  }
+}
