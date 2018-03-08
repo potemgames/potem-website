@@ -1,3 +1,5 @@
+before_deploy:
+  ./hellorake.sh
 deploy:
 - provider: firebase
   skip_cleanup: true
